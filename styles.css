@@ -3,28 +3,36 @@
   list-style: none;
   gap: 20px;
   align-items: center;
+  padding: 0px;
 }
 
 .app-header {
   display: flex;
+  /* border: 10px solid #172b4d;  */
   justify-content: space-between;
-  background-color: #fff;
+  padding: 0 35px;
 }
 
-section {
+.welcome-line {
+  padding: 0 35px;
+  padding-top: 128px;
+}
+
+.app-wrapper {
+  height: 720px;
   background-color: #fff;
-  border-radius: 0 0 0 25px;
+  border-radius: 0 0 0 80px;
 }
 
 h2 {
-  font-family: "Poppins", sans-serif;
   font-weight: bold;
   color: #172b4d;
 }
 
 p {
-  font-family: "Poppins", sans-serif;
   color: #344563;
+  /* text-align: justify; */
+  /* text-justify: inter-word; */
 }
 
 .lets-connect {
@@ -37,7 +45,11 @@ p {
 }
 
 body {
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
+  height: 100vh;
   background-color: #e5e5e5;
+  margin: 0px;
+  padding: 0px;
 }
