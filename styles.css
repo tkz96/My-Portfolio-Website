@@ -3,6 +3,7 @@
   list-style: none;
   gap: 20px;
   align-items: center;
+  margin: 0px;
   padding: 0px;
 }
 
@@ -10,27 +11,43 @@
   display: flex;
   /* border: 10px solid #172b4d;  */
   justify-content: space-between;
-  padding: 0 35px;
+  align-items: center;
+  padding: 0 24px;
+  background: #fff;
+  height: 40px;
+}
+
+.app-header p {
+  margin: 0px;
 }
 
 .welcome-line {
-  padding: 0 35px;
-  padding-top: 128px;
+  padding: 0 24px;
+  padding-top: 120px;
 }
 
 .app-wrapper {
   height: 720px;
   background-color: #fff;
   border-radius: 0 0 0 80px;
+  background-image: url("./header-shapes.svg");
 }
 
 h2 {
-  font-weight: bold;
+  font-weight: 700;
   color: #172b4d;
+  font-size: 40px;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 12px;
+  line-height: 52px;
 }
 
 p {
   color: #344563;
+  margin: 0px;
+  margin-bottom: 12px;
+  padding: 2px 0;
   /* text-align: justify; */
   /* text-justify: inter-word; */
 }
