@@ -1,15 +1,31 @@
+h2 {
+  font-weight: 700;
+  color: #172b4d;
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 12px;
+  line-height: 52px;
+}
+
+p {
+  color: #344563;
+  margin: 0;
+  margin-bottom: 12px;
+  padding: 2px 0;
+}
+
 .icons ul {
   display: flex;
   list-style: none;
   gap: 20px;
   align-items: center;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .app-header {
   display: flex;
-  /* border: 10px solid #172b4d;  */
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
@@ -18,7 +34,7 @@
 }
 
 .app-header p {
-  margin: 0px;
+  margin: 0;
 }
 
 .welcome-line {
@@ -31,25 +47,6 @@
   background-color: #fff;
   border-radius: 0 0 0 80px;
   background-image: url("./header-shapes.svg");
-}
-
-h2 {
-  font-weight: 700;
-  color: #172b4d;
-  font-size: 40px;
-  padding: 0px;
-  margin: 0px;
-  margin-bottom: 12px;
-  line-height: 52px;
-}
-
-p {
-  color: #344563;
-  margin: 0px;
-  margin-bottom: 12px;
-  padding: 2px 0;
-  /* text-align: justify; */
-  /* text-justify: inter-word; */
 }
 
 .lets-connect {
@@ -67,6 +64,6 @@ body {
   flex-direction: column;
   height: 100vh;
   background-color: #e5e5e5;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
