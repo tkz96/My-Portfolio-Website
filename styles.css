@@ -1,3 +1,41 @@
-html * {
-  font-family: "Inter", sans-serif !important;
+.icons ul {
+  list-style: none;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+header {
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+section {
+  background-color: #fff;
+  border-radius: 0px 0px 0px 25px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #172b4d;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  color: #344563;
+}
+
+.lets-connect {
+  color: #7f8cff;
+}
+
+.logo-placeholder {
+  color: #6070ff;
+  font-weight: 700;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e5e5;
 }
