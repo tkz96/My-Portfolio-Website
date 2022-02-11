@@ -48,6 +48,7 @@ p {
   border-radius: 0 0 0 80px;
   background-image: url("./header-shapes.svg");
 }
+
 .app-header a {
   text-decoration: none;
 }
