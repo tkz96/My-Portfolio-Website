@@ -87,6 +87,7 @@ p {
   background-image: url("./contact-form-shapes-mobile-2x.svg");
   background-color: #6070FF;
   border-radius: 80px 0 0 0;
+  text-align: center;
 }
 
 .contact-form h2 {
@@ -95,6 +96,10 @@ p {
 
 .contact-form p {
   color:#fff;
+}
+
+#fname {
+  border: 1px solid #CFD8DC;
 }
 
 .portfolio-cards {
