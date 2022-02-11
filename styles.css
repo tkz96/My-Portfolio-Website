@@ -60,10 +60,47 @@ p {
   background-color: #fff;
   border-radius: 0 0 0 80px;
 }
+
+.about-myself {
+  padding: 0 24px;
+  padding-top: 114px;
+  padding-bottom: 136px;
+  background-color: #fff;
+  border-radius: 0 80px 0 0;
+}
+
+.myself-list {
+  list-style: none;
+  padding: 0px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.language-list {
+  list-style: none;
+}
+
+.contact-form {
+  padding: 0 24px;
+  padding-top: 114px;
+  padding-bottom: 136px;
+  background-image: url("./contact-form-shapes-mobile-2x.svg");
+  background-color: #6070FF;
+  border-radius: 80px 0 0 0;
+}
+
+.contact-form h2 {
+  color:#fff;
+}
+
+.contact-form p {
+  color:#fff;
+}
+
 .portfolio-cards {
   /* background-color: #fff; */
   display: grid;
-  margin: 24px;
+  margin: 114px 24px;
   gap: 88px;
   /* border: 2px solid red; */
 }
