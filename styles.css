@@ -71,7 +71,7 @@ p {
 
 .myself-list {
   list-style: none;
-  padding: 0px;
+  padding: 0;
   font-size: 20px;
   font-weight: 500;
 }
@@ -85,36 +85,33 @@ p {
   padding-top: 114px;
   padding-bottom: 136px;
   background-image: url("./contact-form-shapes-mobile-2x.svg");
-  background-color: #6070FF;
+  background-color: #6070ff;
   border-radius: 80px 0 0 0;
   text-align: center;
 }
 
 .contact-form h2 {
-  color:#fff;
+  color: #fff;
 }
 
 .contact-form p {
-  color:#fff;
+  color: #fff;
 }
 
 #fname {
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
 }
 
 .portfolio-cards {
-  /* background-color: #fff; */
   display: grid;
   margin: 114px 24px;
   gap: 88px;
-  /* border: 2px solid red; */
 }
 
 .portfolio-cards .card {
   display: flex;
   flex-direction: column;
   padding: 12px;
-  /* border:0; */
   border-radius: 16px;
   background-color: #fff;
 }
@@ -137,8 +134,8 @@ p {
 
 .tags {
   display: flex;
-  font-size:13px;
-  list-style:none;
+  font-size: 13px;
+  list-style: none;
   padding: 0;
   gap: 8px;
 }
@@ -164,35 +161,30 @@ p {
   font-weight: 700;
 }
 
-.card .head{
-  padding: 0px;
+.card .head {
+  padding: 0;
 }
 
-.card .text{
-  padding: 0px;
-}
-
-.card .head{
-  padding: 0px;
+.card .text {
+  padding: 0;
 }
 
 .card .action {
-  padding: 0px;
+  padding: 0;
 }
 
 .card h2 {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .see-project {
   color: #396df2;
-  border: 12px;
   border-radius: 8px;
   background-color: #fff;
   border-color: #396df2;
   border: 1px solid #6070ff;
   box-sizing: border-box;
-  margin:0px;
+  margin: 0;
   padding: 12px;
   width: 124px;
 }
