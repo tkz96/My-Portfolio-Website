@@ -1,3 +1,18 @@
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f7f7f9;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  text-decoration: none;
+  color: #fff;
+}
+
 h2 {
   font-weight: 700;
   color: #172b4d;
@@ -45,8 +60,53 @@ p {
   background-color: #fff;
   border-radius: 0 0 0 80px;
 }
+.portfolio-cards {
+  /* background-color: #fff; */
+  display: grid;
+  margin: 24px;
+  gap: 88px;
+  /* border: 2px solid red; */
+}
 
-.app-wrapper {
+.portfolio-cards .card {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  /* border:0; */
+  border-radius: 16px;
+  background-color: #fff;
+}
+
+.caption {
+  display: flex;
+  font-size: 13px;
+  list-style: none;
+  font-weight: 600;
+  color: #7a869a;
+  gap: 12px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.canopy {
+  color: #344563;
+}
+
+.tags {
+  display: flex;
+  font-size:13px;
+  list-style:none;
+  padding: 0;
+  gap: 8px;
+}
+
+.tag {
+  font-weight: 500;
+  color: #6070ff;
+  background-color: #ebebff;
+  border-radius: 8px;
+  padding: 4px 12px;
 }
 
 .app-header a {
@@ -62,12 +122,35 @@ p {
   font-weight: 700;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  background-color: #f7f7f9;
-  margin: 0;
-  padding: 0;
+.card .head{
+  padding: 0px;
+}
+
+.card .text{
+  padding: 0px;
+}
+
+.card .head{
+  padding: 0px;
+}
+
+.card .action {
+  padding: 0px;
+}
+
+.card h2 {
+  margin-bottom: 0px;
+}
+
+.see-project {
+  color: #396df2;
+  border: 12px;
+  border-radius: 8px;
+  background-color: #fff;
+  border-color: #396df2;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  margin:0px;
+  padding: 12px;
+  width: 124px;
 }
