@@ -179,6 +179,32 @@ p {
   margin-bottom: 0;
 }
 
+.myself-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.lang-list {
+  padding: 0;
+}
+
+.myself-list-item {
+  display: flex;
+  padding: 24px 40px 24px 12px;
+  justify-content: space-between;
+}
+
+.lang {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 12px;
+
+  background-color: #f7f7f9;
+
+  list-style: none;
+}
+
 button {
   color: #396df2;
   border-radius: 8px;
