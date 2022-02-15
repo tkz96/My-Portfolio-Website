@@ -209,8 +209,29 @@
         <section class="contact-form">
             <h2>Contact Me</h2>
             <p>If you have an application you are interested in developing, a feature that you need built, or a project that needs coding, <br> I'd love to help</p>
-            
-            <button>Get In Touch</button>
+            <form action="https://formspree.io/f/xvolakag" method="post">
+                <ul class="form-input">
+                    <li><input 
+                        type="text"
+                        name="name"
+                        placeholder="Enter Your Full Name"
+                        maxlength="30"
+                        required></li>
+                    <li><input 
+                        type="email"
+                        name="email"
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                        placeholder="Enter Your Email"
+                        required></li>
+                    <li><textarea
+                        id="textarea"
+                        name="textarea"
+                        placeholder="Write Your Message Here!"
+                        maxlength="500"
+                        required></textarea></li>
+                </ul>
+                <button type="submit">Get In Touch</button>
+            </form>
         </section>
     </div>
 </body>
