@@ -1,3 +1,14 @@
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f7f7f9;
+  margin: 0;
+  padding: 0;
+  min-width: 372px;
+}
+
 .button {
   text-decoration: none;
   color: #fff;
@@ -247,15 +258,8 @@ textarea {
   height: 170px;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  background-color: #f7f7f9;
-  margin: 0;
-  padding: 0;
-}
-
-@media (min-width: 374px) {
+@media (min-width: 500px) {
+  body {
+    background-color: #172b4d;
+  }
 }
