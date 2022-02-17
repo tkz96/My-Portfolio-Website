@@ -295,4 +295,16 @@ textarea {
     display: block;
   }
 
+  .about-myself {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    padding-left: 142px;
+    padding-right: 142px;
+  }
+
+  .contact-form {
+    padding-left: 436px;
+    padding-right: 436px;
+  }
 }
