@@ -1,5 +1,8 @@
-body {
+* {
   font-family: "Poppins", sans-serif;
+}
+
+body {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -51,6 +54,10 @@ p {
 
 .app-header p {
   margin: 0;
+}
+
+.app-header ul {
+  display: none;
 }
 
 .welcome-line {
@@ -267,11 +274,14 @@ textarea {
     background-color: #172b4d;
   }
 
+  .app-wrapper {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+
   .welcome-line {
     background-image: url("/assets/shapes/background-shapes/desktop/desktop-header-shapes.svg");
-    padding-left: 260px;
-    padding-right: 260px;
-    padding-bottom: 200px;
   }
 
   .portfolio-cards {
@@ -284,6 +294,10 @@ textarea {
   }
 
   .portfolio-cards .card .left-block {
+    flex-direction: column;
+  }
+
+  .card .head {
     flex-direction: column;
   }
 
@@ -306,5 +320,19 @@ textarea {
   .contact-form {
     padding-left: 436px;
     padding-right: 436px;
+  }
+
+  .app-header {
+    padding: 0 155px;
+  }
+
+  .app-header ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+  }
+
+  .welcome-line-text {
+    padding: 0 240px;
   }
 }
