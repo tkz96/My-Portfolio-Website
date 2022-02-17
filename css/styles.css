@@ -120,6 +120,10 @@ p {
   background-color: #fff;
 }
 
+.image2 {
+  display: none;
+}
+
 .caption {
   display: flex;
   font-size: 13px;
@@ -262,4 +266,33 @@ textarea {
   body {
     background-color: #172b4d;
   }
+
+  .welcome-line {
+    background-image: url("/assets/shapes/background-shapes/desktop/desktop-header-shapes.svg");
+    padding-left: 260px;
+    padding-right: 260px;
+    padding-bottom: 200px;
+  }
+
+  .portfolio-cards {
+    margin: 142px;
+    gap: 142px;
+  }
+
+  .portfolio-cards .card {
+    flex-direction: row;
+  }
+
+  .portfolio-cards .card .left-block {
+    flex-direction: column;
+  }
+
+  .image1 {
+    display: none;
+  }
+
+  .image2 {
+    display: block;
+  }
+
 }
