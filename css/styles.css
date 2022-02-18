@@ -114,14 +114,14 @@ p {
 }
 
 .portfolio-cards {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   margin: 114px 24px;
   gap: 88px;
 }
 
 .portfolio-cards .card {
   display: flex;
-  flex-direction: column;
   padding: 12px;
   border-radius: 16px;
   background-color: #fff;
@@ -269,11 +269,7 @@ textarea {
   height: 170px;
 }
 
-@media (min-width: 500px) {
-  body {
-    background-color: #172b4d;
-  }
-
+@media (min-width: 992px) {
   .app-wrapper {
     width: 100vw;
     display: flex;
@@ -282,6 +278,11 @@ textarea {
 
   .welcome-line {
     background-image: url("/assets/shapes/background-shapes/desktop/desktop-header-shapes.svg");
+    background-position: center;
+  }
+
+  .welcome-line-text {
+    padding: 0 240px;
   }
 
   .portfolio-cards {
@@ -310,9 +311,11 @@ textarea {
   }
 
   .about-myself {
-    display: flex;
-    flex-grow: 1;
-    flex-basis: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 0;
     padding-left: 142px;
     padding-right: 142px;
   }
@@ -320,6 +323,8 @@ textarea {
   .contact-form {
     padding-left: 436px;
     padding-right: 436px;
+    background-image: url("/assets/shapes/background-shapes/desktop/contact-form-background-shapes.svg");
+    background-position: center;
   }
 
   .app-header {
@@ -330,9 +335,5 @@ textarea {
     display: flex;
     list-style: none;
     gap: 32px;
-  }
-
-  .welcome-line-text {
-    padding: 0 240px;
   }
 }
