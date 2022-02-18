@@ -10,6 +10,7 @@ body {
   margin: 0;
   padding: 0;
   min-width: 372px;
+  max-width: 1440px;
 }
 
 .button {
@@ -122,6 +123,7 @@ p {
 
 .portfolio-cards .card {
   display: flex;
+  flex-direction: column;
   padding: 12px;
   border-radius: 16px;
   background-color: #fff;
@@ -269,6 +271,14 @@ textarea {
   height: 170px;
 }
 
+.contact-form-items {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
 @media (min-width: 992px) {
   .app-wrapper {
     width: 100vw;
@@ -321,10 +331,12 @@ textarea {
   }
 
   .contact-form {
-    padding-left: 436px;
-    padding-right: 436px;
+    /* padding-left: 400px;
+    padding-right: 0; */
     background-image: url("/assets/shapes/background-shapes/desktop/contact-form-background-shapes.svg");
     background-position: center;
+    display: flex;
+    flex-direction: column;
   }
 
   .app-header {
