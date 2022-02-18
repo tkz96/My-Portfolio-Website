@@ -274,6 +274,13 @@ textarea {
     background-color: #172b4d;
   }
 
+  .image2:hover {
+    transition: 400ms;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    transform: scale(0.96);
+    box-shadow: -1px 1px 30px 8px rgba(0, 0, 0, 0.28);
+  }
+
   .app-wrapper {
     width: 100vw;
     display: flex;
@@ -335,4 +342,10 @@ textarea {
   .welcome-line-text {
     padding: 0 240px;
   }
+}
+
+.icons li:hover {
+  transition: 150ms;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transform: scale(1.2);
 }
