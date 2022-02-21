@@ -320,6 +320,13 @@ textarea {
     display: block;
   }
 
+  .image2:hover {
+    transition: 400ms;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    transform: scale(0.96);
+    box-shadow: -1px 1px 30px 8px rgba(0, 0, 0, 0.28);
+  }
+
   .about-myself {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -348,4 +355,10 @@ textarea {
     list-style: none;
     gap: 32px;
   }
+}
+
+.icons li:hover {
+  transition: 150ms;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transform: scale(1.2);
 }
