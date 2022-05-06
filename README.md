@@ -8,20 +8,6 @@ This repository is dedicated to my portfolio website. Link to the website in the
 - HTML 5
 - CSS 3
 
-## Getting Started
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-Download these files to your local system or a server
-
-### Setup
-
-### Usage
-
-### Deployment
-
 ## Author
 
 👤 **Talha Zuberi**
